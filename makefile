@@ -3,7 +3,7 @@ BIN_LIB=ASALCEDO2
 LIBLIST=$(BIN_LIB) LIBHTTP YAJL
 SHELL=/QOpenSys/usr/bin/qsh
 
-all: calcufunc.rpgle
+all: calcufunc.rpgle enviamsg.rpgle
 
 calcufunc.rpgle: calcudspf.dspf
 

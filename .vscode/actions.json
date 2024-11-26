@@ -3,17 +3,8 @@
       "extensions": [
         "GLOBAL"
       ],
-      "name": "Desplegar y Construir TODO",
+      "name": "Desplegar y Construir",
       "command": "/QOpenSys/pkgs/bin/gmake BUILDLIB=&CURLIB ERR=*EVENTF",
-      "environment": "pase",
-      "deployFirst": true
-    },
-    {
-      "extensions": [
-        "GLOBAL"
-      ],
-      "name": "Desplegar y Construir ACTUAL",
-      "command": "/QOpenSys/pkgs/bin/gmake &BASENAME BUILDLIB=&CURLIB ERR=*EVENTF",
       "environment": "pase",
       "deployFirst": true
     }
